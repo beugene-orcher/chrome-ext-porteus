@@ -1,5 +1,5 @@
 let DEFAULT_UA = navigator.userAgent;
-let CUSTOM_UA = DEFAULT_UA;
+let CUSTOM_UA = 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0;  Trident/5.0)';
 function init() {
     bindOnBeforeSendHeaders();
     bindOnMessage();

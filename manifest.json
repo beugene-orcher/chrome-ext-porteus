@@ -6,7 +6,7 @@
     "permissions": [
         "webRequest",
         "webRequestBlocking",
-        "<all_urls>"
+        "*://outlook.live.com/*"
     ],
     "background": {
         "scripts": ["background.js"]
@@ -17,7 +17,7 @@
     "content_scripts": [
         {
         "js":        ["content_script.js"],
-        "matches":   ["<all_urls>"],
+        "matches":   ["*://outlook.live.com/*"],
         "run_at":    "document_start"
         }
     ],
